@@ -1,0 +1,78 @@
+.background{
+    font-family: 'Montserrat', sans-serif;
+
+    background: url("https://media.istockphoto.com/vectors/blue-abstract-geometric-dynamic-shape-paper-layers-subtle-background-vector-id1284691550?k=20&m=1284691550&s=612x612&w=0&h=M_gHdREUJ4UwnL4G5jrrO1jtat9pLDiv1ErqwxuQgLE=") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.qlai>a{
+    text-decoration: none;
+color: rgb(43, 43, 43);
+}
+.qlai{
+ 
+    margin-left:15px ;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+ font-size: 16px;
+}
+ 
+
+#div-nav{
+    margin:140px 500px;  
+    background: rgb(241, 241, 241);
+    text-align: center;
+    width:500px ;
+    height: 400px;
+    border-radius: 8px;
+}
+
+#email  {
+   margin-top:50px;
+  width :400px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#pass{
+    margin-top: 20px;
+    width :400px;
+    height: 45px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#dangnhap{ 
+    margin-top:25px ;
+    height: 50px;
+    width: 400px;
+    border-radius:10px;
+    border: 1px solid white;
+    background: rgb(101, 168, 231); 
+    color: white;
+    font-size: 18px;
+}
+ #taotk>a{ 
+      
+    text-decoration: none;
+   color: white;
+}  
+ 
+#taotk{
+    margin-top:25px ;
+    height: 50px;
+    width:250px;
+    border-radius:10px;
+    border: 1px solid white;
+    background: rgb(101, 168, 231); 
+    color: white;
+    font-size: 18px;
+     
+}
+/*  
+div:hover {
+
+    background-color:rgb(80, 154, 224);;
+  } */

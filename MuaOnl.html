@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thông Tin Bảo Hành</title>
+        <link rel="stylesheet" href="baohanh.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+  <style>
+      body{
+  font-family: 'Roboto', sans-serif;
+   margin: 0;
+  background-color: rgb(240, 240, 240);
+} 
+
+#header--{ 
+     color: white;
+    max-width:100%;
+  height: 50px;
+    
+   background-image: linear-gradient(0,#587996,#445d72);  
+}
+
+#header-nav{
+    display: flex;
+    
+     justify-content: space-between; /*đẩy 2 ul ra x a*/
+}
+
+.header-ul{
+    padding-left:0;
+   list-style: none;
+   margin-left: 100px;
+   margin-right: 100px;
+    
+}
+ a:visited{
+  color: white;
+}
+a:hover{
+  color: rgb(36, 160, 255);
+} 
+.onl-fo{
+    height: 600px;
+    margin:50px 480px ;
+    background-color: #ffdeaa;
+    width: 600px;
+    text-align: center;
+    border-radius:10px ;
+}
+
+.hewid{
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    width: 450px;
+    height: 35px;
+}
+
+#mess{
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 150px;
+    width: 450px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+#gui{
+    width: 300px; 
+    height: 50px; 
+    border-radius:10px;
+    border: 1px solid rgb(20, 107, 165);
+    background-color: rgb(20, 107, 165);
+    color: white;
+    font-size: 20px;
+}
+
+  </style>
+  
+    </head>
+    <body class="body">
+        <div>
+            <header id="header--"> 
+                <nav id="header-nav"> 
+                <ul class="header-ul">              
+                 <li class="head-ul-li " style="font-size: 20px;" >  AHQ.COM </li>
+                </ul>
+
+                <ul class="header-ul">
+                    <!-- link tang chủ -->
+                    <li class="head-ul-li"><a  href="GiaoDien.html" >Trang chủ</a> 
+                    </li>
+                    <!-- SPham -->
+                    <li class="head-ul-li">   <a href="sanpham.html">Sản phẩm </a> </li> 
+                    
+                    <!-- Dnhap -->
+                    <li class="head-ul-li"><a href="dangnhap.html"> Đăng Nhập</a> </li> 
+                </ul>
+               </nav>  
+            </header>
+            <h2 style="text-align: center; padding-top: 20px; color: #135b9b;">Hướng dẫn mua hàng Online</h2>
+            <div style="text-align: center ;">
+            <span  >Khách hàng muốn mua Laptop nhưng chưa biết chọn loại nào phù hợp thì hãy điền các thông tin như: Dòng máy,SDT,Nội dung,...   <br>
+            Nhân viên chúng tôi sẽ liên hệ với quý khách trong thời gian sớm để hỗ trợ như mua ở trực tiếp ở cửa Hàng  </span>
+           </div>
+           <div class="onl-fo">
+                <h2 style="font-size: 30px;  color: rgb(255, 255, 255);padding-top:10px;">Nhập thông tin </h2>
+                 <form action="" method="post"> 
+                   <input type="email " class="hewid" placeholder="Nhập Email" required > <br>
+                   <input type="tel"  class="hewid" placeholder="Nhập SDT" required><br>
+                   <input type="text"  class="hewid" placeholder="Dòng Sản Phẩm" required> <br>
+                   <input type="text"  class="hewid" placeholder="Nhập Địa Chỉ" required> <br>
+                   <input type=" messenger" id="mess" placeholder="Nhập nội dung cần lưu ý" > <br>
+              
+               <input id="gui" type="submit" value="GỬI">
+             </form>
+           </div>
+        </div>
+    </body>
+</html>

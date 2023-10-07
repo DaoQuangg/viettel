@@ -1,0 +1,76 @@
+.background{
+    font-family: 'Montserrat', sans-serif;
+
+    background: url("https://media.istockphoto.com/vectors/blue-abstract-geometric-dynamic-shape-paper-layers-subtle-background-vector-id1284691550?k=20&m=1284691550&s=612x612&w=0&h=M_gHdREUJ4UwnL4G5jrrO1jtat9pLDiv1ErqwxuQgLE=") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+a:hover{
+    color: aqua;
+}
+
+.qlai>a{
+    text-decoration: none;
+color: rgb(255, 255, 255);
+}
+.qlai{
+ 
+    margin-left:15px ;
+    text-decoration-line: underline;
+  text-decoration-style: solid;
+ font-size: 16px;
+}
+
+.Form{
+    background-color: rgb(241, 241, 241);
+    width: 600px;
+    height: 500px;
+    margin:80px 460px 50px 460px ;
+    border-radius: 15px;
+}
+.dangki, .nhanhchong,
+.name,  .email, .tel, 
+.pass{
+  margin-left: 15px;
+}
+.dangki{
+    padding-top: 10px;
+    font-size: 35px;
+    
+}
+
+.nhanhchong{
+    padding-top: 5px;
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    
+}
+.name  {
+        width: 265px;
+}
+.email, .tel, 
+.pass{
+    width: 555px;
+}
+.email, .tel, 
+.pass, .name{  
+     height: 40px;
+    border-radius: 10px ;
+    border: 1px solid rgb(255, 255, 255);
+     margin-top:18px;
+}
+   .submit{
+       color: white;
+     font-size: 15px;
+       border-radius: 8px;
+       width: 150px;
+       height: 40px;
+       margin-top: 20px;
+       margin-left: 230px;
+       background-color: rgb(20, 125, 167);
+       border: 1px solid rgb(32, 151, 187);
+   }
+   
+   
